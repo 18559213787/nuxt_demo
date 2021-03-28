@@ -186,7 +186,7 @@ nuxt.config.js中设置设置全局样式文件路径
      {src: '~/plugins/ElementUI', ssr: true }
    ],
    build: {
-       //防止element-ui被多次打包
+       //防止element-ui被多次打包,vendor在新版本被废弃了
      vendor: ['element-ui']
    }
    ```
